@@ -5,7 +5,12 @@ import LoginPage from './pages/LoginPage.jsx';
 import RegisterPage from './pages/RegisterPage.jsx';
 import DashboardPage from './pages/DashboardPage.jsx';
 import NotesPage from './pages/NotesPage.jsx';
-
+import TasksPage from './pages/TasksPage.jsx';
+import CalendarPage from './pages/CalendarPage.jsx';
+import FinancePage from './pages/FinancePage.jsx';
+import HabitsPage from './pages/HabitsPage.jsx';
+import AIAssistantPage from './pages/AIAssistantPage.jsx';
+import ProtectedRoute from './routes/ProtectedRoute.jsx';
 
 export default function App() {
   return (

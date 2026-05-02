@@ -3,10 +3,10 @@ import { BarChart3, Bot, CalendarDays, CheckSquare, HeartPulse, NotebookText, Wa
 
 const items = [
   { to: '/', label: 'Dashboard', icon: BarChart3 },
-  
+  { to: '/tasks', label: 'Tasks', icon: CheckSquare },
   { to: '/notes', label: 'Notes', icon: NotebookText },
-  
-  
+  { to: '/calendar', label: 'Calendar', icon: CalendarDays },
+  { to: '/finance', label: 'Finance', icon: Wallet },
   { to: '/habits', label: 'Health', icon: HeartPulse },
   { to: '/assistant', label: 'AI Assistant', icon: Bot }
 ];
